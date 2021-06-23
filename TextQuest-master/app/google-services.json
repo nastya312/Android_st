@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "670645891266",
+    "project_id": "crossbd-c1046",
+    "storage_bucket": "crossbd-c1046.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:670645891266:android:429d2ac0ab1e8b08230b5b",
+        "android_client_info": {
+          "package_name": "me.discgold.strangerthings"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "670645891266-0kglbcbrmtpqteevb5nlrjecdkstqhg7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.discgold.strangerthings",
+            "certificate_hash": "84562e61bee35d2ff9ec6d4a04970368944a85a9"
+          }
+        },
+        {
+          "client_id": "670645891266-k9aqmgk32u8qdfeudi59rpggidefd6bq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAaiRO44cf0Qn2yXcTd_J3Ul7ocE_ra1s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "670645891266-k9aqmgk32u8qdfeudi59rpggidefd6bq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

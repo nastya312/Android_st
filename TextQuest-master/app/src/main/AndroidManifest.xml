@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.discgold.strangerthings">
+
+    <!-- Include required permissions for Google Mobile Ads to run. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8156759534479281~3119114011"/>
+
+        <!-- ищет файл с кодовой частью MainActivity -->
+
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- кодовая часть MainActivity запускается первая -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Level4"
+            android:screenOrientation="portrait">
+            <!-- ориентация портрет -->
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <!-- передает MainActivity на запуск -->
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Level5"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <!-- кодовая часть MainActivity запускается первая -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Level6"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <!-- кодовая часть MainActivity запускается первая -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Level1"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <!-- кодовая часть MainActivity запускается первая -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Level2"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <!-- кодовая часть MainActivity запускается первая -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Level3"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <!-- кодовая часть MainActivity запускается первая -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Level7"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <!-- кодовая часть MainActivity запускается первая -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Level8"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <!-- кодовая часть MainActivity запускается первая -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Level0"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <!-- кодовая часть MainActivity запускается первая -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Level9"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <!-- кодовая часть MainActivity запускается первая -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Level10"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <!-- кодовая часть MainActivity запускается первая -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:enabled="true" android:name=".MyService" />
+        <service android:enabled="true" android:name=".MusicService" />
+    </application>
+
+</manifest>

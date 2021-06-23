@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="8dp">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Вы выскакиваете в коридор и радуетесь, что легли спать в одежде. Жаль только, обувь оставили в комнате. Впрочем, лучше быть босым, чем мертвым."
+                android:textSize="24dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical"/>
+
+            <ImageView
+                android:id="@+id/level_four_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/koridor" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="В дверь, которую вы благоразумно за собой захлопнули, начинает что-то скрестись. Настойчиво, резко, будто бы оголодавший зверь. До вас доносится очередной невнятный вздох. От него кровь стынет в жилах. Дверь, не выдержав напора, открывается."
+                android:textSize="24dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Резко обернуться"
+                    android:background="@color/black95"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textSize="24dp" />
+
+                <Button
+                    android:id="@+id/button_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Сбежать"
+                    android:background="@color/black95"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textSize="24dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Быстрее-быстрее! Решайте, куда бежать!"
+                android:textSize="24dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Броситься влево"
+                    android:background="@color/black95"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textSize="24dp"  />
+
+                <Button
+                    android:id="@+id/button_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Броситься вправо"
+                    android:background="@color/black95"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textSize="24dp"  />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

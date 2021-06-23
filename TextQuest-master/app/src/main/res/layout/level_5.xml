@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="8dp">
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Вы кидаетесь в сторону шаткой лестницы, ведущей куда-то наверх. Падаете прямо перед ней. Вскочив на четвереньки, карабкаетесь. Позади раздается скулеж, но вы на него не обращаете внимания, упорно взбираясь. Добравшись до чердака, закрываетесь там, подперев спиной дверь. Тяжело дыша, оглядываетесь."
+                android:textSize="24dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical"/>
+
+            <ImageView
+                android:id="@+id/level_four_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/cherdak" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Вы видите окно, и по вашему телу разливается теплое, пленительное чувство надежды. Свет! Выход! До спасения несколько шагов… Но сможете ли вы выжить, прыгнув с такой высоты?"
+                android:textSize="24dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/button_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Резко обернуться"
+                    android:background="@color/black95"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textSize="24dp" />
+
+                <Button
+                    android:id="@+id/button_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Кинуться к окну"
+                    android:background="@color/black95"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textSize="24dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Решившись попытать удачу, вы бросаетесь к окну. В конце концов, лучше быть инвалидом, чем съеденным! Вскакивая на стол, вы открываете окно. На вас падают прохладные капли дождя, лицо овивает порывистый, буйный ветер свободы! Небо озаряет молния, разразившись громом. Еще чуть-чуть!"
+                android:textSize="24dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical" />
+
+                <Button
+                    android:id="@+id/button_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Вперед"
+                    android:background="@color/black95"
+                    android:textColor="@color/white"
+                    android:padding="10dp"
+                    android:layout_gravity="center"
+                    android:textSize="24dp"  />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
